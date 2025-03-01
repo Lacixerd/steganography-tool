@@ -19,4 +19,3 @@ if __name__ == "__main__":
         print(f"Error message: {e}")
     except KeyboardInterrupt:
         print("\nExiting the program...")
-
