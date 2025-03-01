@@ -59,4 +59,3 @@ def read_embed_message(image_path="data/restored_grey_image.png"):
         return mainMessageString
     except Exception as e:
         print(f"Error message: {e}")
-
