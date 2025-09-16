@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-def embed_message(image_path,output_path="data/restored_grey_image.png",message="Ugur Mali"):
+def embed_message(image_path,output_path="data/restored_grey_image.png", message="Default Message"):
     try:
         image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
         bit_matrix = np.vectorize(lambda x: format(x, '08b'))(image)
