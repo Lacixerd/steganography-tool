@@ -18,7 +18,7 @@ Bu proje, görüntü dosyaları içerisine gizli mesajlar yerleştirmenize ve bu
 
 1. Projeyi klonlayın:
 ```
-git clone https://github.com/Clrrus/steganography-tool.git
+git clone https://github.com/Lacixerd/steganography-tool.git
 cd steganography-tool
 ```
 
@@ -58,11 +58,3 @@ Bu uygulama, LSB (Least Significant Bit) steganografi tekniğini kullanır. Her 
 - Şu an için sadece elde edilen fotoğraflar, gri tonlamalı görüntüler olarak çıkar. Renkli fotoğraf çıkışı desteklenmemektedir
 - Mesaj uzunluğu, görüntü boyutuyla sınırlıdır
 - Görüntü formatı değiştirildiğinde gizli mesaj kaybolabilir
-
-## 👥 Katkıda Bulunma
-
-1. Bu projeyi fork edin
-2. Yeni bir özellik dalı oluşturun (`git checkout -b yeni-ozellik`)
-3. Değişikliklerinizi commit edin (`git commit -am 'Yeni özellik eklendi'`)
-4. Dalınıza push yapın (`git push origin yeni-ozellik`)
-5. Bir Pull Request oluşturun
